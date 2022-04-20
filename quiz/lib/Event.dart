@@ -27,8 +27,8 @@ class _EventListState extends State<EventList> {
                   'StemPreneur Day',
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
-                    color: Colors.red,
-                    fontSize: 16,
+                    color: Colors.blue,
+                    fontSize: 20,
                   ),
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
@@ -53,11 +53,8 @@ class _EventListState extends State<EventList> {
               height: 100,
               color: Colors.grey,
               child: Padding(
-                padding: EdgeInsets.symmetric(horizontal: 2),
-                child: Image.asset(
-                  'assets/img/acara2.jpg',
-                  fit: BoxFit.cover,
-                ),
+                padding: EdgeInsets.symmetric(vertical: 2),
+               
               ),
             ).cornerRadiusWithClipRRect(16).expand(flex: 1)
           ],
@@ -70,18 +67,18 @@ class _EventListState extends State<EventList> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 const Text(
-                  'StemPreneur Day',
+                  'Innofair 2022',
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
-                    color: Colors.red,
-                    fontSize: 16,
+                    color: Colors.blue,
+                    fontSize: 20,
                   ),
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
                 ),
                 4.height,
                 const Text(
-                  'Ayo Ikuti ICASTEM 2021: The 2nd Internaational Conference on Applied Sciences, Technology, Engineering, and Mathematics',
+                  'Ayo Ikuti Innofair dan pamerkan inovasimu',
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     color: Colors.black,
@@ -99,10 +96,7 @@ class _EventListState extends State<EventList> {
               color: Colors.grey,
               child: Padding(
                 padding: EdgeInsets.symmetric(horizontal: 2),
-                child: Image.asset(
-                  'assets/img/acara1.jpg',
-                  fit: BoxFit.cover,
-                ),
+               
               ),
             ).cornerRadiusWithClipRRect(16).expand(flex: 1)
           ],
